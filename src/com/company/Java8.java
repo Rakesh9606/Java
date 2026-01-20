@@ -2,6 +2,48 @@ package com.company;
 
 import java.util.Arrays;
 import java.util.List;
+/* 
+concise and minimal code 
+functional programing benifits 
+to enable parrallle programing . more compatible codde for multi core processors
+
+Lambda Expressions: It is used to implement functional programming.Anonomous function , fun without name 
+
+Benefits of Lambda Expressions
+1. To enable functional programming in Java
+2. To make code more readable, maintainable and cocise code 
+3. To enable parallel processing
+4. JAR file size reduction
+5. Elimination of shadow variables
+
+Functional Interfaces: Interfaces with a single abstract method (SAM).
+Example
+
+@FunctionalInterface  
+interface MyFunctionalInterface {  
+    void display();  // Only one abstract method  
+} 
+
+
+Some built-in functional interfaces are:
+
+Runnable
+Callable
+Predicate
+Function
+Consumer
+Supplier
+
+
+
+Stream API: For processing collections in a functional style.
+Optional Class: It helps to avoid NullPointerException.
+Default and Static Methods in Interfaces: It allows interfaces to have method implementations.
+New Date-Time API: It provides better handling of dates and times.
+Collectors API: It helps in performing reduction operations on collections.
+method and constructor refernce :: operator
+foreach method 
+*/
 
 /*1st feature of java 8 we can define the method in the interface but it should be def and satic
 interface A12{
